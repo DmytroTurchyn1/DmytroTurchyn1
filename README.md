@@ -1,10 +1,7 @@
 # Hi there👋
-<a href="https://github.com/DimaLabsdeveloper">
-  <img height=200  src="https://github-readme-stats.vercel.app/api?username=DimaLabsdeveloper" />
-</a>
-<a href="https://github.com/DimaLabsdeveloper">
-  <img height=200  src="https://github-readme-stats.vercel.app/api/top-langs?username=DimaLabsdeveloper&layout=compact&langs_count=8&card_width=320" />
-</a>
+
+<img height=200  src="https://github-readme-stats.vercel.app/api/top-langs?username=DimaLabsdeveloper&layout=compact&langs_count=8&card_width=320" />
+
 
 
 
