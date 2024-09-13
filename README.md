@@ -1,6 +1,6 @@
 # Hi👋, I’m Dmytro
 
-<img height=200  src="https://github-readme-stats.vercel.app/api/top-langs?username=DimaLabsdeveloper&layout=compact&langs_count=8&card_width=320" />
+<img height=200  src="https://github-readme-stats.vercel.app/api/top-langs?username=DmytroTurchyn1&layout=compact&langs_count=8&card_width=320" />
 
 <h3 align="left">Languages and Tools:</h3>
 
