@@ -1,6 +1,9 @@
 # Hi👋, I’m Dmytro
+<div align="center" >
+  <img height=200  src="https://github-readme-stats.vercel.app/api/top-langs?username=DmytroTurchyn1&layout=compact&langs_count=8&card_width=320" />
+<img height="200"  src="https://github.com/DmytroTurchyn1/DmytroTurchyn1/blob/main/tetris.svg">
+</div>
 
-<img height=200  src="https://github-readme-stats.vercel.app/api/top-langs?username=DmytroTurchyn1&layout=compact&langs_count=8&card_width=320" />
 
 <h3 align="left">Languages and Tools:</h3>
 
