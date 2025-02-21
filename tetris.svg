@@ -1,0 +1,512 @@
+<!--Copy-Right: https://github.com/DmytroTurchyn1-->
+
+<svg viewBox="-16 -32 880 192" width="880" height="192" xmlns="http://www.w3.org/2000/svg">
+  <desc>Generated with a modified Tetris-style animation</desc>
+  <style>
+    :root {
+      --empty: #161b22;
+      --block1: #6cd064;
+      --block2: #1e4029;
+      --block3: #204b27;
+      --block4: #52a44e;
+      --grid: #1b1f230a;
+    }
+    .cell {
+      shape-rendering: geometricPrecision;
+      fill: var(--empty);
+      stroke-width: 1px;
+      stroke: var(--grid);
+      width: 12px;
+      height: 12px;
+      rx: 2px;
+    }
+    .falling {
+      animation: fall 1s ease-in forwards;
+
+    }
+    @keyframes fall {
+      0% { transform: translateY(-100px); opacity: 0;}
+      100% { transform: translateY(20px); opacity: 1; }
+    }
+  </style>
+  
+<!-- Generate Grid -->
+  <g>
+    <!-- Single Row with 52 Squares (y = 20) -->
+
+    <rect class="cell" x="34" y="20"  />
+    <rect class="cell" x="48" y="20"  />
+    <rect class="cell" x="62" y="20"  />
+    <rect class="cell" x="76" y="20"  />
+    <rect class="cell" x="90" y="20"  />
+    <rect class="cell" x="104" y="20" />
+    <rect class="cell" x="118" y="20" />
+    <rect class="cell" x="132" y="20" />
+    <rect class="cell" x="146" y="20" />
+    <rect class="cell" x="160" y="20" />
+    <rect class="cell" x="174" y="20" />
+    <rect class="cell" x="188" y="20" />
+    <rect class="cell" x="202" y="20" />
+    <rect class="cell" x="216" y="20" />
+    <rect class="cell" x="230" y="20" />
+    <rect class="cell" x="244" y="20" />
+    <rect class="cell" x="258" y="20" />
+    <rect class="cell" x="272" y="20" />
+    <rect class="cell" x="286" y="20" />
+    <rect class="cell" x="300" y="20" />
+    <rect class="cell" x="314" y="20" />
+    <rect class="cell" x="328" y="20" />
+    <rect class="cell" x="342" y="20" />
+    <rect class="cell" x="356" y="20" />
+    <rect class="cell" x="370" y="20" />
+    <rect class="cell" x="384" y="20" />
+    <rect class="cell" x="398" y="20" />
+    <rect class="cell" x="412" y="20" />
+    <rect class="cell" x="426" y="20" />
+    <rect class="cell" x="440" y="20" />
+    <rect class="cell" x="454" y="20" />
+    <rect class="cell" x="468" y="20" />
+    <rect class="cell" x="482" y="20" />
+    <rect class="cell" x="496" y="20" />
+    <rect class="cell" x="510" y="20" />
+    <rect class="cell" x="524" y="20" />
+    <rect class="cell" x="538" y="20" />
+    <rect class="cell" x="552" y="20" /> 
+    <rect class="cell" x="566" y="20" />
+    <rect class="cell" x="580" y="20" />
+    <rect class="cell" x="594" y="20" />
+    <rect class="cell" x="608" y="20" />
+    <rect class="cell" x="622" y="20" />
+    <rect class="cell" x="636" y="20" />
+    <rect class="cell" x="650" y="20" />
+    <rect class="cell" x="664" y="20" />
+    <rect class="cell" x="678" y="20" />
+    <rect class="cell" x="692" y="20" />
+    <rect class="cell" x="706" y="20" />
+    <rect class="cell" x="720" y="20" />
+    <rect class="cell" x="734" y="20" />
+
+    <!-- Row 2 (y = 20 + 14 = 34) -->
+    <!-- Single Row with 52 Squares (y = 20) -->
+    <rect class="cell" x="20" y="34"  />
+    <rect class="cell" x="34" y="34"  />
+    <rect class="cell" x="48" y="34"  />
+    <rect class="cell" x="62" y="34"  />
+    <rect class="cell" x="76" y="34"  />
+    <rect class="cell" x="90" y="34"  />
+    <rect class="cell" x="104" y="34" />
+    <rect class="cell" x="118" y="34" />
+    <rect class="cell" x="132" y="34" />
+    <rect class="cell" x="146" y="34" />
+    <rect class="cell" x="160" y="34" />
+    <rect class="cell" x="174" y="34" />
+    <rect class="cell" x="188" y="34" />
+    <rect class="cell" x="202" y="34" />
+    <rect class="cell" x="216" y="34" />
+    <rect class="cell" x="230" y="34" />
+    <rect class="cell" x="244" y="34" />
+    <rect class="cell" x="258" y="34" />
+    <rect class="cell" x="272" y="34" />
+    <rect class="cell" x="286" y="34" />
+    <rect class="cell" x="300" y="34" />
+    <rect class="cell" x="314" y="34" />
+    <rect class="cell" x="328" y="34" />
+    <rect class="cell" x="342" y="34" />
+    <rect class="cell" x="356" y="34" />
+    <rect class="cell" x="370" y="34" />
+    <rect class="cell" x="384" y="34" />
+    <rect class="cell" x="398" y="34" />
+    <rect class="cell" x="412" y="34" />
+    <rect class="cell" x="426" y="34" />
+    <rect class="cell" x="440" y="34" />
+    <rect class="cell" x="454" y="34" />
+    <rect class="cell" x="468" y="34" />
+    <rect class="cell" x="482" y="34" />
+    <rect class="cell" x="496" y="34" />
+    <rect class="cell" x="510" y="34" />
+    <rect class="cell" x="524" y="34" />
+    <rect class="cell" x="538" y="34" />
+    <rect class="cell" x="552" y="34" />
+    <rect class="cell" x="566" y="34" />
+    <rect class="cell" x="580" y="34" />
+    <rect class="cell" x="594" y="34" />
+    <rect class="cell" x="608" y="34" />
+    <rect class="cell" x="622" y="34" />
+    <rect class="cell" x="636" y="34" />
+    <rect class="cell" x="650" y="34" />
+    <rect class="cell" x="664" y="34" />
+    <rect class="cell" x="678" y="34" />
+    <rect class="cell" x="692" y="34" />
+    <rect class="cell" x="706" y="34" />
+    <rect class="cell" x="720" y="34" />
+    <rect class="cell" x="734" y="34" />
+
+    <!-- Row 3 (y = 48) -->
+    <rect class="cell" x="20" y="48"  />
+    <rect class="cell" x="34" y="48"  />
+    <rect class="cell" x="48" y="48"  />
+    <rect class="cell" x="62" y="48"  />
+    <rect class="cell" x="76" y="48"  />
+    <rect class="cell" x="90" y="48"  />
+    <rect class="cell" x="104" y="48" />
+    <rect class="cell" x="118" y="48" />
+    <rect class="cell" x="132" y="48" />
+    <rect class="cell" x="146" y="48" />
+    <rect class="cell" x="160" y="48" />
+    <rect class="cell" x="174" y="48" />
+    <rect class="cell" x="188" y="48" />
+    <rect class="cell" x="202" y="48" />
+    <rect class="cell" x="216" y="48" />
+    <rect class="cell" x="230" y="48" />
+    <rect class="cell" x="244" y="48" />
+    <rect class="cell" x="258" y="48" />
+    <rect class="cell" x="272" y="48" />
+    <rect class="cell" x="286" y="48" />
+    <rect class="cell" x="300" y="48" />
+    <rect class="cell" x="314" y="48" />
+    <rect class="cell" x="328" y="48" />
+    <rect class="cell" x="342" y="48" />
+    <rect class="cell" x="356" y="48" />
+    <rect class="cell" x="370" y="48" />
+    <rect class="cell" x="384" y="48" />
+    <rect class="cell" x="398" y="48" />
+    <rect class="cell" x="412" y="48" />
+    <rect class="cell" x="426" y="48" />
+    <rect class="cell" x="440" y="48" />
+    <rect class="cell" x="454" y="48" />
+    <rect class="cell" x="468" y="48" />
+    <rect class="cell" x="482" y="48" />
+    <rect class="cell" x="496" y="48" />
+    <rect class="cell" x="510" y="48" />
+    <rect class="cell" x="524" y="48" />
+    <rect class="cell" x="538" y="48" />
+    <rect class="cell" x="552" y="48" />
+    <rect class="cell" x="566" y="48" />
+    <rect class="cell" x="580" y="48" />
+    <rect class="cell" x="594" y="48" />
+    <rect class="cell" x="608" y="48" />
+    <rect class="cell" x="622" y="48" />
+    <rect class="cell" x="636" y="48" />
+    <rect class="cell" x="650" y="48" />
+    <rect class="cell" x="664" y="48" />
+    <rect class="cell" x="678" y="48" />
+    <rect class="cell" x="692" y="48" />
+    <rect class="cell" x="706" y="48" />
+    <rect class="cell" x="720" y="48" />
+    <rect class="cell" x="734" y="48" />
+
+    <!-- Row 4 (y = 62) -->
+    <rect class="cell" x="20" y="62"  />
+    <rect class="cell" x="34" y="62"  />
+    <rect class="cell" x="48" y="62"  />
+    <rect class="cell" x="62" y="62"  />
+    <rect class="cell" x="76" y="62"  />
+    <rect class="cell" x="90" y="62"  />
+    <rect class="cell" x="104" y="62" />
+    <rect class="cell" x="118" y="62" />
+    <rect class="cell" x="132" y="62" />
+    <rect class="cell" x="146" y="62" />
+    <rect class="cell" x="160" y="62" />
+    <rect class="cell" x="174" y="62" />
+    <rect class="cell" x="188" y="62" />
+    <rect class="cell" x="202" y="62" />
+    <rect class="cell" x="216" y="62" />
+    <rect class="cell" x="230" y="62" />
+    <rect class="cell" x="244" y="62" />
+    <rect class="cell" x="258" y="62" />
+    <rect class="cell" x="272" y="62" />
+    <rect class="cell" x="286" y="62" />
+    <rect class="cell" x="300" y="62" />
+    <rect class="cell" x="314" y="62" />
+    <rect class="cell" x="328" y="62" />
+    <rect class="cell" x="342" y="62" />
+    <rect class="cell" x="356" y="62" />
+    <rect class="cell" x="370" y="62" />
+    <rect class="cell" x="384" y="62" />
+    <rect class="cell" x="398" y="62" />
+    <rect class="cell" x="412" y="62" />
+    <rect class="cell" x="426" y="62" />
+    <rect class="cell" x="440" y="62" />
+    <rect class="cell" x="454" y="62" />
+    <rect class="cell" x="468" y="62" />
+    <rect class="cell" x="482" y="62" />
+    <rect class="cell" x="496" y="62" />
+    <rect class="cell" x="510" y="62" />
+    <rect class="cell" x="524" y="62" />
+    <rect class="cell" x="538" y="62" />
+    <rect class="cell" x="552" y="62" />
+    <rect class="cell" x="566" y="62" />
+    <rect class="cell" x="580" y="62" />
+    <rect class="cell" x="594" y="62" />
+    <rect class="cell" x="608" y="62" />
+    <rect class="cell" x="622" y="62" />
+    <rect class="cell" x="636" y="62" />
+    <rect class="cell" x="650" y="62" />
+    <rect class="cell" x="664" y="62" />
+    <rect class="cell" x="678" y="62" />
+    <rect class="cell" x="692" y="62" />
+    <rect class="cell" x="706" y="62" />
+    <rect class="cell" x="720" y="62" />
+    <rect class="cell" x="734" y="62" />
+
+    <!-- Row 5 (y = 76) -->
+    <rect class="cell" x="20" y="76"  />
+    <rect class="cell" x="34" y="76"  />
+    <rect class="cell" x="48" y="76"  />
+    <rect class="cell" x="62" y="76"  />
+    <rect class="cell" x="76" y="76"  />
+    <rect class="cell" x="90" y="76"  />
+    <rect class="cell" x="104" y="76" />
+    <rect class="cell" x="118" y="76" />
+    <rect class="cell" x="132" y="76" />
+    <rect class="cell" x="146" y="76" />
+    <rect class="cell" x="160" y="76" />
+    <rect class="cell" x="174" y="76" />
+    <rect class="cell" x="188" y="76" />
+    <rect class="cell" x="202" y="76" />
+    <rect class="cell" x="216" y="76" />
+    <rect class="cell" x="230" y="76" />
+    <rect class="cell" x="244" y="76" />
+    <rect class="cell" x="258" y="76" />
+    <rect class="cell" x="272" y="76" />
+    <rect class="cell" x="286" y="76" />
+    <rect class="cell" x="300" y="76" />
+    <rect class="cell" x="314" y="76" />
+    <rect class="cell" x="328" y="76" />
+    <rect class="cell" x="342" y="76" />
+    <rect class="cell" x="356" y="76" />
+    <rect class="cell" x="370" y="76" />
+    <rect class="cell" x="384" y="76" />
+    <rect class="cell" x="398" y="76" />
+    <rect class="cell" x="412" y="76" />
+    <rect class="cell" x="426" y="76" />
+    <rect class="cell" x="440" y="76" />
+    <rect class="cell" x="454" y="76" />
+    <rect class="cell" x="468" y="76" />
+    <rect class="cell" x="482" y="76" />
+    <rect class="cell" x="496" y="76" />
+    <rect class="cell" x="510" y="76" />
+    <rect class="cell" x="524" y="76" />
+    <rect class="cell" x="538" y="76" />
+    <rect class="cell" x="552" y="76" />
+    <rect class="cell" x="566" y="76" />
+    <rect class="cell" x="580" y="76" />
+    <rect class="cell" x="594" y="76" />
+    <rect class="cell" x="608" y="76" />
+    <rect class="cell" x="622" y="76" />
+    <rect class="cell" x="636" y="76" />
+    <rect class="cell" x="650" y="76" />
+    <rect class="cell" x="664" y="76" />
+    <rect class="cell" x="678" y="76" />
+    <rect class="cell" x="692" y="76" />
+    <rect class="cell" x="706" y="76" />
+    <rect class="cell" x="720" y="76" />
+    <rect class="cell" x="734" y="76" />
+    <rect class="cell" x="748" y="76" />
+    
+    <!-- Row 6 (y = 90) -->
+    <rect class="cell" x="20" y="90"  />
+    <rect class="cell" x="34" y="90"  />
+    <rect class="cell" x="48" y="90"  />
+    <rect class="cell" x="62" y="90"  />
+    <rect class="cell" x="76" y="90"  />
+    <rect class="cell" x="90" y="90"  />
+    <rect class="cell" x="104" y="90" />
+    <rect class="cell" x="118" y="90" />
+    <rect class="cell" x="132" y="90" />
+    <rect class="cell" x="146" y="90" />
+    <rect class="cell" x="160" y="90" />
+    <rect class="cell" x="174" y="90" />
+    <rect class="cell" x="188" y="90" />
+    <rect class="cell" x="202" y="90" />
+    <rect class="cell" x="216" y="90" />
+    <rect class="cell" x="230" y="90" />
+    <rect class="cell" x="244" y="90" />
+    <rect class="cell" x="258" y="90" />
+    <rect class="cell" x="272" y="90" />
+    <rect class="cell" x="286" y="90" />
+    <rect class="cell" x="300" y="90" />
+    <rect class="cell" x="314" y="90" />
+    <rect class="cell" x="328" y="90" />
+    <rect class="cell" x="342" y="90" />
+    <rect class="cell" x="356" y="90" />
+    <rect class="cell" x="370" y="90" />
+    <rect class="cell" x="384" y="90" />
+    <rect class="cell" x="398" y="90" />
+    <rect class="cell" x="412" y="90" />
+    <rect class="cell" x="426" y="90" />
+    <rect class="cell" x="440" y="90" />
+    <rect class="cell" x="454" y="90" />
+    <rect class="cell" x="468" y="90" />
+    <rect class="cell" x="482" y="90" />
+    <rect class="cell" x="496" y="90" />
+    <rect class="cell" x="510" y="90" />
+    <rect class="cell" x="524" y="90" />
+    <rect class="cell" x="538" y="90" />
+    <rect class="cell" x="552" y="90" />
+    <rect class="cell" x="566" y="90" />
+    <rect class="cell" x="580" y="90" />
+    <rect class="cell" x="594" y="90" />
+    <rect class="cell" x="608" y="90" />
+    <rect class="cell" x="622" y="90" />
+    <rect class="cell" x="636" y="90" />
+    <rect class="cell" x="650" y="90" />
+    <rect class="cell" x="664" y="90" />
+    <rect class="cell" x="678" y="90" />
+    <rect class="cell" x="692" y="90" />
+    <rect class="cell" x="706" y="90" />
+    <rect class="cell" x="720" y="90" />
+    <rect class="cell" x="734" y="90" />
+    <rect class="cell" x="748" y="90" />
+
+    <!-- Row 7 (y = 104) -->
+    <rect class="cell" x="20" y="104"  />
+    <rect class="cell" x="34" y="104"  />
+    <rect class="cell" x="48" y="104"  />
+    <rect class="cell" x="62" y="104"  />
+    <rect class="cell" x="76" y="104"  />
+    <rect class="cell" x="90" y="104"  />
+    <rect class="cell" x="104" y="104" />
+    <rect class="cell" x="118" y="104" />
+    <rect class="cell" x="132" y="104" />
+    <rect class="cell" x="146" y="104" />
+    <rect class="cell" x="160" y="104" />
+    <rect class="cell" x="174" y="104" />
+    <rect class="cell" x="188" y="104" />
+    <rect class="cell" x="202" y="104" />
+    <rect class="cell" x="216" y="104" />
+    <rect class="cell" x="230" y="104" />
+    <rect class="cell" x="244" y="104" />
+    <rect class="cell" x="258" y="104" />
+    <rect class="cell" x="272" y="104" />
+    <rect class="cell" x="286" y="104" />
+    <rect class="cell" x="300" y="104" />
+    <rect class="cell" x="314" y="104" />
+    <rect class="cell" x="328" y="104" />
+    <rect class="cell" x="342" y="104" />
+    <rect class="cell" x="356" y="104" />
+    <rect class="cell" x="370" y="104" />
+    <rect class="cell" x="384" y="104" />
+    <rect class="cell" x="398" y="104" />
+    <rect class="cell" x="412" y="104" />
+    <rect class="cell" x="426" y="104" />
+    <rect class="cell" x="440" y="104" />
+    <rect class="cell" x="454" y="104" />
+    <rect class="cell" x="468" y="104" />
+    <rect class="cell" x="482" y="104" />
+    <rect class="cell" x="496" y="104" />
+    <rect class="cell" x="510" y="104" />
+    <rect class="cell" x="524" y="104" />
+    <rect class="cell" x="538" y="104" />
+    <rect class="cell" x="552" y="104" />
+    <rect class="cell" x="566" y="104" />
+    <rect class="cell" x="580" y="104" />
+    <rect class="cell" x="594" y="104" />
+    <rect class="cell" x="608" y="104" />
+    <rect class="cell" x="622" y="104" />
+    <rect class="cell" x="636" y="104" />
+    <rect class="cell" x="650" y="104" />
+    <rect class="cell" x="664" y="104" />
+    <rect class="cell" x="678" y="104" />
+    <rect class="cell" x="692" y="104" />
+    <rect class="cell" x="706" y="104" />
+    <rect class="cell" x="720" y="104" />
+    <rect class="cell" x="734" y="104" />
+    <rect class="cell" x="748" y="104" />
+
+  </g>
+ <!-- Cube falling -->
+ <g class="falling" style="animation-delay: 0s; opacity: 0;">
+    <rect class="cell" x="104" y="84" style="fill: var(--block1);"/>
+    <rect class="cell" x="118" y="84" style="fill: var(--block2);"/>
+    <rect class="cell" x="104" y="70" style="fill: var(--block3);"/>
+    <rect class="cell" x="118" y="70" style="fill: var(--block4);"/>
+  </g>
+
+  <!-- I Shape falling -->
+  <g class="falling" style="animation-delay: 1s; opacity: 0;">
+    <rect class="cell" x="202" y="84" style="fill: var(--block1);"/>
+    <rect class="cell" x="216" y="84" style="fill: var(--block2);"/>
+    <rect class="cell" x="230" y="84" style="fill: var(--block3);"/>
+    <rect class="cell" x="244" y="84" style="fill: var(--block4);"/>
+  </g>
+
+  <!-- L Shape falling -->
+  <g class="falling" style="animation-delay: 2s; opacity: 0;">
+    <rect class="cell" x="300" y="70" style="fill: var(--block1);"/>
+    <rect class="cell" x="300" y="84" style="fill: var(--block2);"/>
+    <rect class="cell" x="314" y="84" style="fill: var(--block3);"/>
+    <rect class="cell" x="328" y="84" style="fill: var(--block4);"/>
+  </g>
+
+<!-- L Shape falling -->
+  <g class="falling" style="animation-delay: 3s; opacity: 0;">
+    <rect class="cell" x="608" y="70" style="fill: var(--block1);"/>
+    <rect class="cell" x="608" y="84" style="fill: var(--block2);"/>
+    <rect class="cell" x="622" y="84" style="fill: var(--block3);"/>
+    <rect class="cell" x="636" y="84" style="fill: var(--block4);"/>
+  </g>
+<!-- Cube falling -->
+   <g class="falling" style="animation-delay: 4s; opacity: 0;">
+    <rect class="cell" x="622" y="70" style="fill: var(--block1);"/>
+    <rect class="cell" x="636" y="70" style="fill: var(--block2);"/>
+    <rect class="cell" x="636" y="56" style="fill: var(--block3);"/>
+    <rect class="cell" x="622" y="56" style="fill: var(--block4);"/>
+  </g>
+  
+    <!-- I Shape falling -->
+  <g class="falling" style="animation-delay: 5s; opacity: 0;">
+    <rect class="cell" x="692" y="84" style="fill: var(--block1);"/>
+    <rect class="cell" x="692" y="70" style="fill: var(--block2);"/>
+    <rect class="cell" x="692" y="56" style="fill: var(--block3);"/>
+    <rect class="cell" x="692" y="42" style="fill: var(--block4);"/>
+  </g>
+
+  <!-- L Shape falling -->
+  <g class="falling" style="animation-delay: 6s; opacity: 0;">
+    <rect class="cell" x="202" y="70" style="fill: var(--block1);"/>
+    <rect class="cell" x="216" y="70" style="fill: var(--block2);"/>
+    <rect class="cell" x="230" y="70" style="fill: var(--block3);"/>
+    <rect class="cell" x="202" y="56" style="fill: var(--block4);"/>
+  </g>
+
+    <!-- Falling Tetris J -->
+  <g class="falling" style="animation-delay: 7s; opacity: 0;">
+    <rect class="cell" x="328" y="70" style="fill: var(--block1);"/>
+    <rect class="cell" x="328" y="56" style="fill: var(--block2);"/>
+    <rect class="cell" x="314" y="56" style="fill: var(--block3);"/>
+    <rect class="cell" x="300" y="56" style="fill: var(--block4);"/>
+  </g>
+
+   <!-- Cube falling -->
+ <g class="falling" style="animation-delay: 8s; opacity: 0;">
+    <rect class="cell" x="104" y="56" style="fill: var(--block1);"/>
+    <rect class="cell" x="118" y="56" style="fill: var(--block2);"/>
+    <rect class="cell" x="104" y="42" style="fill: var(--block3);"/>
+    <rect class="cell" x="118" y="42" style="fill: var(--block4);"/>
+  </g>
+
+    <!--  S falling -->
+  <g class="falling" style="animation-delay: 0s; opacity: 0;">
+    <rect class="cell" x="454" y="84" style="fill: var(--block1);"/>
+    <rect class="cell" x="440" y="70" style="fill: var(--block2);"/>
+    <rect class="cell" x="468" y="84" style="fill: var(--block3);"/>
+    <rect class="cell" x="454" y="70" style="fill: var(--block4);"/>
+  </g>
+
+      <!--  S falling -->
+  <g class="falling" style="animation-delay: 9s; opacity: 0;">
+    <rect class="cell" x="426" y="84" style="fill: var(--block1);"/>
+    <rect class="cell" x="412" y="70" style="fill: var(--block2);"/>
+    <rect class="cell" x="440" y="84" style="fill: var(--block3);"/>
+    <rect class="cell" x="426" y="70" style="fill: var(--block4);"/>
+  </g>
+
+      <!-- I Shape falling -->
+  <g class="falling" style="animation-delay: 4.5s; opacity: 0;">
+    <rect class="cell" x="678" y="84" style="fill: var(--block1);"/>
+    <rect class="cell" x="678" y="70" style="fill: var(--block2);"/>
+    <rect class="cell" x="678" y="56" style="fill: var(--block3);"/>
+    <rect class="cell" x="678" y="42" style="fill: var(--block4);"/>
+  </g>
+</svg>
