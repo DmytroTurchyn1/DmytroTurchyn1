@@ -1,7 +1,6 @@
 # Hi👋, I’m Dmytro
 <div align="center" >
   <img height=200  src="https://github-readme-stats.vercel.app/api/top-langs?username=DmytroTurchyn1&layout=compact&langs_count=8&card_width=320" />
-<img height="200"  src="https://github.com/DmytroTurchyn1/DmytroTurchyn1/blob/main/game.svg">
 </div>
 
 
@@ -20,6 +19,4 @@
 ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-
-
+![GoogleCloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
